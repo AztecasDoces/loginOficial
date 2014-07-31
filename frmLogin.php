@@ -13,7 +13,7 @@
             <input type="submit" value="Logar">
         </form>
         
-        <a href=frmInserir.php>Cadastrar-se</a>
-        <a href=frmCadastro.php>Cadastrar-se 2</a>
+        <a href=frmInserir.php>Cadastrar-se</a><br/>
+        <a href=frmRecuperarsenha.php>Esqueceu sua senha? Oh yeah!</a>
     </body>
 </html>

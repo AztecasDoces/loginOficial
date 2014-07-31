@@ -3,7 +3,7 @@ echo '<meta charset=UTF-8>';
 $servidor = 'localhost';
 $usuario = 'root';
 $password = '12345678';
-$database = 'loginOficial';
+$database = 'loginOficial3adb';
 $connection = mysql_connect($servidor,$usuario,$password);
 
 if($connection === FALSE)
