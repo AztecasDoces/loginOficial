@@ -2,16 +2,18 @@
 
 include 'classes/bcrypt.class';
 include 'conexao/conecta.inc';
-$email = $_POST['verifica_email'];
-$senha2 = geraSenha(6);
 
-$sql = "UPDATE usuario SET SENHA_USUARIO = '$senha2' WHERE EMAIL_USUARIO = '$email'";
+$email = $_POST['verifica_email'];
+$senha2 = geraSenha(10);
+$senha = Bcrypt::hash($senha2);
+
+$sql = "UPDATE usuario SET SENHA_USUARIO = '$senha' WHERE EMAIL_USUARIO = '$email'";
 
 //Usuario inserido
 if (mysql_query($sql)) {
-echo 'Senha trocada com sucesso';
-echo 'Sua nova senha é: ' . $senha2 . '';
-echo 'Inicio';
+echo 'Senha trocada com sucesso <br>';
+echo 'Sua nova senha é: ' . $senha2 . '<br/>';
+echo '<a href=frmLogin.php>Logar</a>';
 } else {
 echo mysql_error();
 }

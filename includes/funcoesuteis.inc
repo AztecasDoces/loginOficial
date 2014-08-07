@@ -1,5 +1,6 @@
 <?php
 
+include 'classes/bcrypt.class';
 function validaAutenticacao($link,$tipo)
 {
     echo '<meta charset=UTF-8>';

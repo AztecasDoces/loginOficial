@@ -14,6 +14,6 @@
         </form>
         
         <a href=frmInserir.php>Cadastrar-se</a><br/>
-        <a href=frmRecuperarsenha.php>Esqueceu sua senha? Oh yeah!</a>
+        <a href=frmRecuperarsenha.php>Esqueceu sua senha?</a>
     </body>
 </html>
