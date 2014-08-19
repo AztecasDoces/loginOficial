@@ -42,3 +42,5 @@ $retorno .= $caracteres[$rand - 1];
 }
 return $retorno;
 }
+
+// verificação de email ??
