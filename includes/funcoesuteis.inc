@@ -62,3 +62,4 @@ function validaAutenticacao($link,$tipo)
         }
 }
 
+// Criptografia no email ???
