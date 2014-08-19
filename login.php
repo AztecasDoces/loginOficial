@@ -19,5 +19,7 @@ include_once 'conexao/conecta.inc';
                         else {
                             echo'Senha não confere';
                     }
+                    
+                    // Cadê o código completo do login ?? 
   
    
